@@ -3643,3 +3643,391 @@ java.sql.SQLSyntaxErrorException: Unknown column 'tongnap' in 'field list'
 [2026-05-10 17:22:06 INFO  (main)] - Start socket post=14444
 [2026-05-10 17:22:06 INFO  (main)] - Start server Success!
 [2026-05-10 17:22:06 INFO  (Thread-346)] - Connect to socket server successfully!
+[2026-05-12 22:33:14 INFO  (main)] - Config - db.maxconnections: 20
+[2026-05-12 22:33:14 INFO  (main)] - Config - game.item.version: 46
+[2026-05-12 22:33:14 INFO  (main)] - Config - db.password: 123456
+[2026-05-12 22:33:14 INFO  (main)] - Config - server.notification: Welcome to NSO Server
+[2026-05-12 22:33:14 INFO  (main)] - Config - game.map.version: 36
+[2026-05-12 22:33:14 INFO  (main)] - Config - server.log.display: false
+[2026-05-12 22:33:14 INFO  (main)] - Config - db.driver: com.mysql.cj.jdbc.Driver
+[2026-05-12 22:33:14 INFO  (main)] - Config - db.user: nso
+[2026-05-12 22:33:14 INFO  (main)] - Config - game.data.version: 56
+[2026-05-12 22:33:14 INFO  (main)] - Config - db.dbname: db_shop
+[2026-05-12 22:33:14 INFO  (main)] - Config - threadPoolSize: 50
+[2026-05-12 22:33:14 INFO  (main)] - Config - scheduledPoolSize: 20
+[2026-05-12 22:33:14 INFO  (main)] - Config - client.data.size.max: 1024
+[2026-05-12 22:33:14 INFO  (main)] - Config - db.port: 3306
+[2026-05-12 22:33:14 INFO  (main)] - Config - server.port: 14444
+[2026-05-12 22:33:14 INFO  (main)] - Config - db.minconnections: 15
+[2026-05-12 22:33:14 INFO  (main)] - Config - db.host: localhost
+[2026-05-12 22:33:14 INFO  (main)] - Config - game.skill.version: 35
+[2026-05-12 22:33:14 INFO  (main)] - Config - game.EXP: 1
+[2026-05-12 22:33:14 INFO  (main)] - Config - server.id: 1
+[2026-05-12 22:33:14 ERROR (main)] - load config err: Cannot parse null string
+java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:623)
+	at java.base/java.lang.Integer.parseInt(Integer.java:777)
+	at com.nsoz.server.Config.load(Config.java:95)
+	at com.nsoz.server.NinjaSchool.main(NinjaSchool.java:91)
+[2026-05-12 22:33:14 ERROR (main)] - Vui long kiem tra lai cau hinh!
+[2026-05-12 22:35:50 INFO  (main)] - Config - db.password: 
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.shinwa.fee: 5000
+[2026-05-12 22:35:50 INFO  (main)] - Config - mongodb.password: 
+[2026-05-12 22:35:50 INFO  (main)] - Config - server.log.display: false
+[2026-05-12 22:35:50 INFO  (main)] - Config - mongodb.host: localhost
+[2026-05-12 22:35:50 INFO  (main)] - Config - mongodb.port: 27017
+[2026-05-12 22:35:50 INFO  (main)] - Config - db.user: root
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.quantity.display.max: 65535
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.data.version: 56
+[2026-05-12 22:35:50 INFO  (main)] - Config - scheduledPoolSize: 20
+[2026-05-12 22:35:50 INFO  (main)] - Config - db.port: 3307
+[2026-05-12 22:35:50 INFO  (main)] - Config - server.port: 14444
+[2026-05-12 22:35:50 INFO  (main)] - Config - db.minconnections: 15
+[2026-05-12 22:35:50 INFO  (main)] - Config - websocket.host: ws://localhost
+[2026-05-12 22:35:50 INFO  (main)] - Config - server.id: 1
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.shinwa.active: true
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.login.limit: 20
+[2026-05-12 22:35:50 INFO  (main)] - Config - db.maxconnections: 20
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.item.version: 46
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.store.discount: 0
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.shinwa.player.max: 20
+[2026-05-12 22:35:50 INFO  (main)] - Config - server.notification: Hellos
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.map.version: 36
+[2026-05-12 22:35:50 INFO  (main)] - Config - ï»¿#Cau: hinh
+[2026-05-12 22:35:50 INFO  (main)] - Config - mongodb.user: root
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.event: com.nsoz.event.LunarNewYear
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.shinwa.max: 10000
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.upgrade.percent.add: 0
+[2026-05-12 22:35:50 INFO  (main)] - Config - websocket.port: 8020
+[2026-05-12 22:35:50 INFO  (main)] - Config - db.driver: com.mysql.cj.jdbc.Driver
+[2026-05-12 22:35:50 INFO  (main)] - Config - db.dbname: db_shop
+[2026-05-12 22:35:50 INFO  (main)] - Config - threadPoolSize: 50
+[2026-05-12 22:35:50 INFO  (main)] - Config - client.data.size.max: 1024
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.arena.active: true
+[2026-05-12 22:35:50 INFO  (main)] - Config - db.host: localhost
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.skill.version: 35
+[2026-05-12 22:35:50 INFO  (main)] - Config - game.EXP: 1
+[2026-05-12 22:35:50 INFO  (main)] - Config - mongodb.dbname: admin
+[2026-05-12 22:35:51 ERROR (main)] - DB Connection Pool Creation has failed.
+[2026-05-12 22:38:54 INFO  (main)] - Config - db.password: 123456
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.shinwa.fee: 5000
+[2026-05-12 22:38:54 INFO  (main)] - Config - server.log.display: false
+[2026-05-12 22:38:54 INFO  (main)] - Config - db.user: nso
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.quantity.display.max: 65535
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.data.version: 56
+[2026-05-12 22:38:54 INFO  (main)] - Config - scheduledPoolSize: 20
+[2026-05-12 22:38:54 INFO  (main)] - Config - db.port: 3306
+[2026-05-12 22:38:54 INFO  (main)] - Config - server.port: 14444
+[2026-05-12 22:38:54 INFO  (main)] - Config - db.minconnections: 15
+[2026-05-12 22:38:54 INFO  (main)] - Config - server.id: 1
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.shinwa.active: true
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.login.limit: 20
+[2026-05-12 22:38:54 INFO  (main)] - Config - db.maxconnections: 20
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.item.version: 46
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.store.discount: 0
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.shinwa.player.max: 20
+[2026-05-12 22:38:54 INFO  (main)] - Config - server.notification: Hellos
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.map.version: 36
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.event: com.nsoz.event.LunarNewYear
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.shinwa.max: 10000
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.upgrade.percent.add: 0
+[2026-05-12 22:38:54 INFO  (main)] - Config - db.driver: com.mysql.cj.jdbc.Driver
+[2026-05-12 22:38:54 INFO  (main)] - Config - db.dbname: db_shop
+[2026-05-12 22:38:54 INFO  (main)] - Config - threadPoolSize: 50
+[2026-05-12 22:38:54 INFO  (main)] - Config - client.data.size.max: 1024
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.arena.active: true
+[2026-05-12 22:38:54 INFO  (main)] - Config - db.host: localhost
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.skill.version: 35
+[2026-05-12 22:38:54 INFO  (main)] - Config - game.EXP: 1
+[2026-05-12 22:38:54 ERROR (main)] - load config err: Cannot parse null string
+java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:623)
+	at java.base/java.lang.Integer.parseInt(Integer.java:777)
+	at com.nsoz.server.Config.load(Config.java:95)
+	at com.nsoz.server.NinjaSchool.main(NinjaSchool.java:91)
+[2026-05-12 22:38:54 ERROR (main)] - Vui long kiem tra lai cau hinh!
+[2026-05-12 22:39:55 INFO  (main)] - Config - db.password: 
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.shinwa.fee: 5000
+[2026-05-12 22:39:55 INFO  (main)] - Config - mongodb.password: 
+[2026-05-12 22:39:55 INFO  (main)] - Config - server.log.display: false
+[2026-05-12 22:39:55 INFO  (main)] - Config - mongodb.host: localhost
+[2026-05-12 22:39:55 INFO  (main)] - Config - mongodb.port: 27017
+[2026-05-12 22:39:55 INFO  (main)] - Config - db.user: root
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.quantity.display.max: 65535
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.data.version: 56
+[2026-05-12 22:39:55 INFO  (main)] - Config - scheduledPoolSize: 20
+[2026-05-12 22:39:55 INFO  (main)] - Config - db.port: 3307
+[2026-05-12 22:39:55 INFO  (main)] - Config - server.port: 14444
+[2026-05-12 22:39:55 INFO  (main)] - Config - db.minconnections: 15
+[2026-05-12 22:39:55 INFO  (main)] - Config - websocket.host: ws://localhost
+[2026-05-12 22:39:55 INFO  (main)] - Config - server.id: 1
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.shinwa.active: true
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.login.limit: 20
+[2026-05-12 22:39:55 INFO  (main)] - Config - db.maxconnections: 20
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.item.version: 46
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.store.discount: 0
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.shinwa.player.max: 20
+[2026-05-12 22:39:55 INFO  (main)] - Config - server.notification: Hellos
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.map.version: 36
+[2026-05-12 22:39:55 INFO  (main)] - Config - ï»¿#Cau: hinh
+[2026-05-12 22:39:55 INFO  (main)] - Config - mongodb.user: root
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.event: com.nsoz.event.LunarNewYear
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.shinwa.max: 10000
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.upgrade.percent.add: 0
+[2026-05-12 22:39:55 INFO  (main)] - Config - websocket.port: 8020
+[2026-05-12 22:39:55 INFO  (main)] - Config - db.driver: com.mysql.cj.jdbc.Driver
+[2026-05-12 22:39:55 INFO  (main)] - Config - db.dbname: db_shop
+[2026-05-12 22:39:55 INFO  (main)] - Config - threadPoolSize: 50
+[2026-05-12 22:39:55 INFO  (main)] - Config - client.data.size.max: 1024
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.arena.active: true
+[2026-05-12 22:39:55 INFO  (main)] - Config - db.host: localhost
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.skill.version: 35
+[2026-05-12 22:39:55 INFO  (main)] - Config - game.EXP: 1
+[2026-05-12 22:39:55 INFO  (main)] - Config - mongodb.dbname: admin
+[2026-05-12 22:39:56 ERROR (main)] - DB Connection Pool Creation has failed.
+[2026-05-12 22:40:23 INFO  (main)] - Config - mongodb.port: 27017
+[2026-05-12 22:40:23 INFO  (main)] - Config - mongodb.password: 
+[2026-05-12 22:40:23 INFO  (main)] - Config - mongodb.user: root
+[2026-05-12 22:40:23 INFO  (main)] - Config - mongodb.dbname: admin
+[2026-05-12 22:40:23 INFO  (main)] - Config - mongodb.host: localhost
+[2026-05-12 22:40:23 ERROR (main)] - load config err: Cannot parse null string
+java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:623)
+	at java.base/java.lang.Integer.parseInt(Integer.java:777)
+	at com.nsoz.server.Config.load(Config.java:84)
+	at com.nsoz.server.NinjaSchool.main(NinjaSchool.java:91)
+[2026-05-12 22:40:23 ERROR (main)] - Vui long kiem tra lai cau hinh!
+[2026-05-12 22:40:38 INFO  (main)] - Config - mongodb.port: 27017
+[2026-05-12 22:40:38 INFO  (main)] - Config - websocket.port: 8020
+[2026-05-12 22:40:38 INFO  (main)] - Config - mongodb.password: 
+[2026-05-12 22:40:38 INFO  (main)] - Config - mongodb.user: root
+[2026-05-12 22:40:38 INFO  (main)] - Config - websocket.host: ws://localhost
+[2026-05-12 22:40:38 INFO  (main)] - Config - mongodb.dbname: admin
+[2026-05-12 22:40:38 INFO  (main)] - Config - mongodb.host: localhost
+[2026-05-12 22:40:38 ERROR (main)] - load config err: Cannot parse null string
+java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:623)
+	at java.base/java.lang.Integer.parseInt(Integer.java:777)
+	at com.nsoz.server.Config.load(Config.java:84)
+	at com.nsoz.server.NinjaSchool.main(NinjaSchool.java:91)
+[2026-05-12 22:40:38 ERROR (main)] - Vui long kiem tra lai cau hinh!
+[2026-05-12 22:41:06 INFO  (main)] - Config - db.maxconnections: 20
+[2026-05-12 22:41:06 INFO  (main)] - Config - game.item.version: 46
+[2026-05-12 22:41:06 INFO  (main)] - Config - db.password: 123456
+[2026-05-12 22:41:06 INFO  (main)] - Config - server.notification: Welcome to NSO Server
+[2026-05-12 22:41:06 INFO  (main)] - Config - game.map.version: 36
+[2026-05-12 22:41:06 INFO  (main)] - Config - server.log.display: false
+[2026-05-12 22:41:06 INFO  (main)] - Config - db.driver: com.mysql.cj.jdbc.Driver
+[2026-05-12 22:41:06 INFO  (main)] - Config - db.user: nso
+[2026-05-12 22:41:06 INFO  (main)] - Config - game.data.version: 56
+[2026-05-12 22:41:06 INFO  (main)] - Config - db.dbname: db_shop
+[2026-05-12 22:41:06 INFO  (main)] - Config - threadPoolSize: 50
+[2026-05-12 22:41:06 INFO  (main)] - Config - scheduledPoolSize: 20
+[2026-05-12 22:41:06 INFO  (main)] - Config - client.data.size.max: 1024
+[2026-05-12 22:41:06 INFO  (main)] - Config - db.port: 3306
+[2026-05-12 22:41:06 INFO  (main)] - Config - server.port: 14444
+[2026-05-12 22:41:06 INFO  (main)] - Config - db.minconnections: 15
+[2026-05-12 22:41:06 INFO  (main)] - Config - db.host: localhost
+[2026-05-12 22:41:06 INFO  (main)] - Config - game.skill.version: 35
+[2026-05-12 22:41:06 INFO  (main)] - Config - game.EXP: 1
+[2026-05-12 22:41:06 INFO  (main)] - Config - server.id: 1
+[2026-05-12 22:41:06 ERROR (main)] - load config err: Cannot parse null string
+java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:623)
+	at java.base/java.lang.Integer.parseInt(Integer.java:777)
+	at com.nsoz.server.Config.load(Config.java:95)
+	at com.nsoz.server.NinjaSchool.main(NinjaSchool.java:91)
+[2026-05-12 22:41:06 ERROR (main)] - Vui long kiem tra lai cau hinh!
+[2026-05-12 22:41:27 INFO  (main)] - Config - db.maxconnections: 20
+[2026-05-12 22:41:27 INFO  (main)] - Config - game.item.version: 46
+[2026-05-12 22:41:27 INFO  (main)] - Config - db.password: 123456
+[2026-05-12 22:41:27 INFO  (main)] - Config - server.notification: Welcome to NSO Server
+[2026-05-12 22:41:27 INFO  (main)] - Config - game.map.version: 36
+[2026-05-12 22:41:27 INFO  (main)] - Config - server.log.display: false
+[2026-05-12 22:41:27 INFO  (main)] - Config - db.driver: com.mysql.cj.jdbc.Driver
+[2026-05-12 22:41:27 INFO  (main)] - Config - db.user: nso
+[2026-05-12 22:41:27 INFO  (main)] - Config - game.data.version: 56
+[2026-05-12 22:41:27 INFO  (main)] - Config - db.dbname: db_shop
+[2026-05-12 22:41:27 INFO  (main)] - Config - threadPoolSize: 50
+[2026-05-12 22:41:27 INFO  (main)] - Config - scheduledPoolSize: 20
+[2026-05-12 22:41:27 INFO  (main)] - Config - client.data.size.max: 1024
+[2026-05-12 22:41:27 INFO  (main)] - Config - db.port: 3306
+[2026-05-12 22:41:27 INFO  (main)] - Config - server.port: 14444
+[2026-05-12 22:41:27 INFO  (main)] - Config - db.minconnections: 15
+[2026-05-12 22:41:27 INFO  (main)] - Config - db.host: localhost
+[2026-05-12 22:41:27 INFO  (main)] - Config - game.skill.version: 35
+[2026-05-12 22:41:27 INFO  (main)] - Config - game.EXP: 1
+[2026-05-12 22:41:27 INFO  (main)] - Config - server.id: 1
+[2026-05-12 22:41:27 ERROR (main)] - load config err: Cannot parse null string
+java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:623)
+	at java.base/java.lang.Integer.parseInt(Integer.java:777)
+	at com.nsoz.server.Config.load(Config.java:95)
+	at com.nsoz.server.NinjaSchool.main(NinjaSchool.java:91)
+[2026-05-12 22:41:27 ERROR (main)] - Vui long kiem tra lai cau hinh!
+[2026-05-12 22:42:21 INFO  (main)] - Config - db.password: 123456
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.shinwa.fee: 5000
+[2026-05-12 22:42:21 INFO  (main)] - Config - mongodb.password: 
+[2026-05-12 22:42:21 INFO  (main)] - Config - server.log.display: false
+[2026-05-12 22:42:21 INFO  (main)] - Config - mongodb.host: localhost
+[2026-05-12 22:42:21 INFO  (main)] - Config - mongodb.port: 27017
+[2026-05-12 22:42:21 INFO  (main)] - Config - db.user: nso
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.quantity.display.max: 65535
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.data.version: 56
+[2026-05-12 22:42:21 INFO  (main)] - Config - scheduledPoolSize: 20
+[2026-05-12 22:42:21 INFO  (main)] - Config - db.port: 3306
+[2026-05-12 22:42:21 INFO  (main)] - Config - server.port: 14444
+[2026-05-12 22:42:21 INFO  (main)] - Config - db.minconnections: 15
+[2026-05-12 22:42:21 INFO  (main)] - Config - websocket.host: ws://localhost
+[2026-05-12 22:42:21 INFO  (main)] - Config - server.id: 1
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.shinwa.active: true
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.login.limit: 20
+[2026-05-12 22:42:21 INFO  (main)] - Config - db.maxconnections: 20
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.item.version: 46
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.store.discount: 0
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.shinwa.player.max: 20
+[2026-05-12 22:42:21 INFO  (main)] - Config - server.notification: Welcome to NSO Server
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.map.version: 36
+[2026-05-12 22:42:21 INFO  (main)] - Config - mongodb.user: root
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.event: com.nsoz.event.LunarNewYear
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.shinwa.max: 10000
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.upgrade.percent.add: 0
+[2026-05-12 22:42:21 INFO  (main)] - Config - websocket.port: 8020
+[2026-05-12 22:42:21 INFO  (main)] - Config - db.driver: com.mysql.cj.jdbc.Driver
+[2026-05-12 22:42:21 INFO  (main)] - Config - db.dbname: db_shop
+[2026-05-12 22:42:21 INFO  (main)] - Config - threadPoolSize: 50
+[2026-05-12 22:42:21 INFO  (main)] - Config - client.data.size.max: 1024
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.arena.active: true
+[2026-05-12 22:42:21 INFO  (main)] - Config - db.host: localhost
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.skill.version: 35
+[2026-05-12 22:42:21 INFO  (main)] - Config - game.EXP: 1
+[2026-05-12 22:42:21 INFO  (main)] - Config - mongodb.dbname: admin
+[2026-05-12 22:42:22 ERROR (main)] - DB Connection Pool Creation has failed.
+[2026-05-12 22:42:58 INFO  (main)] - Config - db.password: 123456
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.shinwa.fee: 5000
+[2026-05-12 22:42:58 INFO  (main)] - Config - mongodb.password: 
+[2026-05-12 22:42:58 INFO  (main)] - Config - server.log.display: false
+[2026-05-12 22:42:58 INFO  (main)] - Config - mongodb.host: localhost
+[2026-05-12 22:42:58 INFO  (main)] - Config - mongodb.port: 27017
+[2026-05-12 22:42:58 INFO  (main)] - Config - db.user: nso
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.quantity.display.max: 65535
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.data.version: 56
+[2026-05-12 22:42:58 INFO  (main)] - Config - scheduledPoolSize: 20
+[2026-05-12 22:42:58 INFO  (main)] - Config - db.port: 3306
+[2026-05-12 22:42:58 INFO  (main)] - Config - server.port: 14444
+[2026-05-12 22:42:58 INFO  (main)] - Config - db.minconnections: 15
+[2026-05-12 22:42:58 INFO  (main)] - Config - websocket.host: ws://localhost
+[2026-05-12 22:42:58 INFO  (main)] - Config - server.id: 1
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.shinwa.active: true
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.login.limit: 20
+[2026-05-12 22:42:58 INFO  (main)] - Config - db.maxconnections: 20
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.item.version: 46
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.store.discount: 0
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.shinwa.player.max: 20
+[2026-05-12 22:42:58 INFO  (main)] - Config - server.notification: Welcome to NSO Server
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.map.version: 36
+[2026-05-12 22:42:58 INFO  (main)] - Config - mongodb.user: root
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.event: com.nsoz.event.LunarNewYear
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.shinwa.max: 10000
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.upgrade.percent.add: 0
+[2026-05-12 22:42:58 INFO  (main)] - Config - websocket.port: 8020
+[2026-05-12 22:42:58 INFO  (main)] - Config - db.driver: com.mysql.cj.jdbc.Driver
+[2026-05-12 22:42:58 INFO  (main)] - Config - db.dbname: db_shop
+[2026-05-12 22:42:58 INFO  (main)] - Config - threadPoolSize: 50
+[2026-05-12 22:42:58 INFO  (main)] - Config - client.data.size.max: 1024
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.arena.active: true
+[2026-05-12 22:42:58 INFO  (main)] - Config - db.host: localhost
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.skill.version: 35
+[2026-05-12 22:42:58 INFO  (main)] - Config - game.EXP: 1
+[2026-05-12 22:42:58 INFO  (main)] - Config - mongodb.dbname: admin
+[2026-05-12 22:43:00 ERROR (main)] - DB Connection Pool Creation has failed.
+[2026-05-12 22:43:11 INFO  (main)] - Config - db.password: 123456
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.shinwa.fee: 5000
+[2026-05-12 22:43:11 INFO  (main)] - Config - mongodb.password: 
+[2026-05-12 22:43:11 INFO  (main)] - Config - server.log.display: false
+[2026-05-12 22:43:11 INFO  (main)] - Config - mongodb.host: localhost
+[2026-05-12 22:43:11 INFO  (main)] - Config - mongodb.port: 27017
+[2026-05-12 22:43:11 INFO  (main)] - Config - db.user: nso
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.quantity.display.max: 65535
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.data.version: 56
+[2026-05-12 22:43:11 INFO  (main)] - Config - scheduledPoolSize: 20
+[2026-05-12 22:43:11 INFO  (main)] - Config - db.port: 3307
+[2026-05-12 22:43:11 INFO  (main)] - Config - server.port: 14444
+[2026-05-12 22:43:11 INFO  (main)] - Config - db.minconnections: 15
+[2026-05-12 22:43:11 INFO  (main)] - Config - websocket.host: ws://localhost
+[2026-05-12 22:43:11 INFO  (main)] - Config - server.id: 1
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.shinwa.active: true
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.login.limit: 20
+[2026-05-12 22:43:11 INFO  (main)] - Config - db.maxconnections: 20
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.item.version: 46
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.store.discount: 0
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.shinwa.player.max: 20
+[2026-05-12 22:43:11 INFO  (main)] - Config - server.notification: Welcome to NSO Server
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.map.version: 36
+[2026-05-12 22:43:11 INFO  (main)] - Config - mongodb.user: root
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.event: com.nsoz.event.LunarNewYear
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.shinwa.max: 10000
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.upgrade.percent.add: 0
+[2026-05-12 22:43:11 INFO  (main)] - Config - websocket.port: 8020
+[2026-05-12 22:43:11 INFO  (main)] - Config - db.driver: com.mysql.cj.jdbc.Driver
+[2026-05-12 22:43:11 INFO  (main)] - Config - db.dbname: db_shop
+[2026-05-12 22:43:11 INFO  (main)] - Config - threadPoolSize: 50
+[2026-05-12 22:43:11 INFO  (main)] - Config - client.data.size.max: 1024
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.arena.active: true
+[2026-05-12 22:43:11 INFO  (main)] - Config - db.host: localhost
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.skill.version: 35
+[2026-05-12 22:43:11 INFO  (main)] - Config - game.EXP: 1
+[2026-05-12 22:43:11 INFO  (main)] - Config - mongodb.dbname: admin
+[2026-05-12 22:43:12 ERROR (main)] - DB Connection Pool Creation has failed.
+[2026-05-12 22:43:53 INFO  (main)] - Config - db.password: 
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.shinwa.fee: 5000
+[2026-05-12 22:43:53 INFO  (main)] - Config - mongodb.password: 
+[2026-05-12 22:43:53 INFO  (main)] - Config - server.log.display: false
+[2026-05-12 22:43:53 INFO  (main)] - Config - mongodb.host: localhost
+[2026-05-12 22:43:53 INFO  (main)] - Config - mongodb.port: 27017
+[2026-05-12 22:43:53 INFO  (main)] - Config - db.user: root
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.quantity.display.max: 65535
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.data.version: 56
+[2026-05-12 22:43:53 INFO  (main)] - Config - scheduledPoolSize: 20
+[2026-05-12 22:43:53 INFO  (main)] - Config - db.port: 3307
+[2026-05-12 22:43:53 INFO  (main)] - Config - server.port: 14444
+[2026-05-12 22:43:53 INFO  (main)] - Config - db.minconnections: 15
+[2026-05-12 22:43:53 INFO  (main)] - Config - websocket.host: ws://localhost
+[2026-05-12 22:43:53 INFO  (main)] - Config - server.id: 1
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.shinwa.active: true
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.login.limit: 20
+[2026-05-12 22:43:53 INFO  (main)] - Config - db.maxconnections: 20
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.item.version: 46
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.store.discount: 0
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.shinwa.player.max: 20
+[2026-05-12 22:43:53 INFO  (main)] - Config - server.notification: Hellos
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.map.version: 36
+[2026-05-12 22:43:53 INFO  (main)] - Config - ï»¿#Cau: hinh
+[2026-05-12 22:43:53 INFO  (main)] - Config - mongodb.user: root
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.event: com.nsoz.event.LunarNewYear
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.shinwa.max: 10000
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.upgrade.percent.add: 0
+[2026-05-12 22:43:53 INFO  (main)] - Config - websocket.port: 8020
+[2026-05-12 22:43:53 INFO  (main)] - Config - db.driver: com.mysql.cj.jdbc.Driver
+[2026-05-12 22:43:53 INFO  (main)] - Config - db.dbname: db_shop
+[2026-05-12 22:43:53 INFO  (main)] - Config - threadPoolSize: 50
+[2026-05-12 22:43:53 INFO  (main)] - Config - client.data.size.max: 1024
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.arena.active: true
+[2026-05-12 22:43:53 INFO  (main)] - Config - db.host: localhost
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.skill.version: 35
+[2026-05-12 22:43:53 INFO  (main)] - Config - game.EXP: 1
+[2026-05-12 22:43:53 INFO  (main)] - Config - mongodb.dbname: admin
+[2026-05-12 22:43:53 INFO  (main)] - DB Connection Pool has created.
+[2026-05-12 22:43:58 INFO  (main)] - Loading list leader board
+[2026-05-12 22:43:58 INFO  (main)] - Load list leader board successfully
+[2026-05-12 22:43:58 INFO  (main)] - Loading clan data
+[2026-05-12 22:43:58 INFO  (main)] - Load clan data successfully
+[2026-05-12 22:43:58 INFO  (main)] - Load TDB
+[2026-05-12 22:43:58 INFO  (main)] - load finish:Thiên bảng
+[2026-05-12 22:43:58 INFO  (main)] - load finish:Địa bảng
+[2026-05-12 22:43:58 INFO  (main)] - Load TDB successfully
+[2026-05-12 22:43:58 INFO  (Ranked)] - Refresh ranked success.
+[2026-05-12 22:43:58 INFO  (main)] - Tự động bảo trì 0h0
+[2026-05-12 22:43:58 INFO  (main)] - Start socket post=14444
+[2026-05-12 22:43:58 INFO  (main)] - Start server Success!
+[2026-05-12 22:43:58 INFO  (Thread-346)] - Connect to socket server successfully!
