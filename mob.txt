@@ -1,0 +1,1 @@
+[{"x":1908,"y":264,"templateId":0,"status":1},{"x":2436,"y":192,"templateId":0,"status":1},{"x":132,"y":144,"templateId":0,"status":1},{"x":1956,"y":240,"templateId":0,"status":1},{"x":1980,"y":240,"templateId":0,"status":1}]
