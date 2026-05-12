@@ -2,7 +2,6 @@
 /target
 *.DS_Store
 *.DS_Store?
-/config.properties
 /build
 /.vscode
 /target
