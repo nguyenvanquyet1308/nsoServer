@@ -72,7 +72,6 @@ com\nsoz\map\item\MagicItem.class
 com\nsoz\network\IMessageHandler.class
 com\nsoz\model\Char$4.class
 com\nsoz\effect\EffectAutoData.class
-com\nsoz\server\NinjaSchooll.class
 com\nsoz\model\RandomItem.class
 com\nsoz\map\item\Envelope.class
 com\nsoz\effect\EffectTemplateManager.class

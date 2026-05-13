@@ -93,12 +93,12 @@ public class NinjaSchool extends WindowAdapter implements ActionListener {
                 return;
             }
             if (NinjaUtils.availablePort(Config.getInstance().getPort())) {
-                new NinjaSchooll();
-                new NinjaSchool();
-                if (!Server.init()) {
-                    Log.error("Khoi tao that bai!");
-                    return;
-                }
+//                 new NinjaSchooll();
+//                 new NinjaSchool();
+                 if (!Server.init()) {
+                     Log.error("Khoi tao that bai!");
+                     return;
+                 }
                 
                 Server.start();
                 
